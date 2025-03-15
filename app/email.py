@@ -1,4 +1,6 @@
 from flask_mail import Message
+from wtforms.fields.simple import PasswordField
+
 from app import mail
 
 def send_email(subject, sender, recipients, text_body, html_body):
@@ -6,3 +8,7 @@ def send_email(subject, sender, recipients, text_body, html_body):
     msg.body = text_body
     msg.html = html_body
     mail.send(msg)
+
+def send_password_reset_email():
+    # TODO
+    print()
