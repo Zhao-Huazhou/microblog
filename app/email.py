@@ -1,6 +1,5 @@
 from flask import render_template
 from flask_mail import Message
-from wtforms.fields.simple import PasswordField
 
 from app import app, mail
 from threading import Thread
