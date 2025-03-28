@@ -15,4 +15,4 @@ class Config:
 
     POSTS_PER_PAGE = 10
 
-    LANGUAGES = ['en', 'es']
+    LANGUAGES = ['en', 'es', 'zh']
