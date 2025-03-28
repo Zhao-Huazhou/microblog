@@ -14,3 +14,5 @@ class Config:
     ADMINS = ['qq934131691@gmail.com']
 
     POSTS_PER_PAGE = 10
+
+    LANGUAGES = ['en', 'es']
