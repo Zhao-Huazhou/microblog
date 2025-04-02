@@ -16,3 +16,5 @@ class Config:
     POSTS_PER_PAGE = 10
 
     LANGUAGES = ['en', 'es', 'zh']
+
+    OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
